@@ -113,7 +113,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 22px;
   
 }
 
@@ -155,6 +155,9 @@ outline: 1px solid #fff;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
+  padding-left: 2px;
+  padding-top: 2px;
+  
 }
 
 .visually-hidden {
@@ -174,6 +177,9 @@ outline: 1px solid #fff;
 .search-form__label {
   width: fit-content;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .search-form__label:not(:has(.search-form__textfield)):hover {
@@ -188,6 +194,9 @@ outline: 1px solid #fff;
 
 .search-form__checkbox-list {
   width: fit-content;
+  display:flex;
+  gap: 5px;
+  margin-bottom: 5px;
 }
 
 .search-form__textfield {
