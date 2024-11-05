@@ -47,9 +47,7 @@ ol {
   align-items: flex-end;
   inline-size: 1140px;
   gap: 30px;
-  min-height: 530px;
-
-
+ 
 }
 
 .search-form {
@@ -59,10 +57,9 @@ ol {
 
 }
 .content__list {
-  max-height: 298px;
   overflow: auto;
   width: 100%;
-  height: 100%;
+  height: 298px;
   gap: 26px;
   position: relative;
 }
